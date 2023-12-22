@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio\2019\community\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="16.0">
+ <Targets>
+  <Target Name="C:\Users\furka\source\repos\Frc23\bin\Debug\Frc23.exe">
+   <Modules>
+    <Module Name="frc23.exe">
+     <Namespaces>
+      <Namespace Name="Frc23">
+       <Types>
+        <Type Name="DataSet1" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2023-12-20 11:03:44Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">'DataSet1' türüne GetObjectData'nın bir uygulamasını ekleyin.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="DataSet1+DepartmanDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2023-12-20 11:03:44Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">'DataSet1.DepartmanDataTable' türüne GetObjectData'nın bir uygulamasını ekleyin.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="DataSet1+EComputerDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2023-12-20 11:03:44Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">'DataSet1.EComputerDataTable' türüne GetObjectData'nın bir uygulamasını ekleyin.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="DataSet1+EmployeeDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2023-12-20 11:03:44Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">'DataSet1.EmployeeDataTable' türüne GetObjectData'nın bir uygulamasını ekleyin.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="DataSet1+EnrollDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2023-12-20 11:03:44Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">'DataSet1.EnrollDataTable' türüne GetObjectData'nın bir uygulamasını ekleyin.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="DataSet1+ManagerDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2023-12-20 11:03:44Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">'DataSet1.ManagerDataTable' türüne GetObjectData'nın bir uygulamasını ekleyin.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240">
+   <Name>ISerializable'ı doğru uygulayın</Name>
+   <Description>Eğer bit tür ISerializable'a atanabilir ise, GetObjectData uygulamalıdır. Mühürlenmemiş türler için, GetObjectData yöntemi türetilmiş türler tarafından çağırılabilir ve geçersiz kılınabilir olmalıdır.</Description>
+   <Resolution Name="Default">{0} türüne GetObjectData'nın bir uygulamasını ekleyin.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182342.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="60">Error</MessageLevel>
+   <File Name="usagerules.dll" Version="16.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Kategori</String>
+  <String Key="Certainty">Kesinlik</String>
+  <String Key="CollapseAll">Tümünü Daralt</String>
+  <String Key="CheckId">Kimliği Denetle</String>
+  <String Key="Error">Hata</String>
+  <String Key="Errors">hata(lar)</String>
+  <String Key="ExpandAll">Tümünü Genişlet</String>
+  <String Key="Help">Yardım</String>
+  <String Key="Line">Çizgi</String>
+  <String Key="Messages">ileti(ler)</String>
+  <String Key="LocationNotStoredInPdb">[Konum Pdb içinde saklanmıyorl]</String>
+  <String Key="Project">Proje</String>
+  <String Key="Resolution">Çözünürlük</String>
+  <String Key="Rule">Kural</String>
+  <String Key="RuleFile">Kural Dosyası</String>
+  <String Key="RuleDescription">Kural Açıklaması</String>
+  <String Key="Source">Kaynak</String>
+  <String Key="Status">Durum</String>
+  <String Key="Target">Hedef</String>
+  <String Key="Warning">Uyarı</String>
+  <String Key="Warnings">uyarı(lar)</String>
+  <String Key="ReportTitle">Code Analysis Raporu</String>
+ </Localized>
+</FxCopReport>

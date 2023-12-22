@@ -1,0 +1,17 @@
+C:\Users\furka\source\repos\Frc23\bin\Debug\Frc23.exe.config
+C:\Users\furka\source\repos\Frc23\bin\Debug\Frc23.exe
+C:\Users\furka\source\repos\Frc23\bin\Debug\Frc23.pdb
+C:\Users\furka\source\repos\Frc23\obj\Debug\Frc23.csproj.AssemblyReference.cache
+C:\Users\furka\source\repos\Frc23\obj\Debug\Frc23.Form1.resources
+C:\Users\furka\source\repos\Frc23\obj\Debug\Frc23.Properties.Resources.resources
+C:\Users\furka\source\repos\Frc23\obj\Debug\Frc23.csproj.GenerateResource.cache
+C:\Users\furka\source\repos\Frc23\obj\Debug\Frc23.csproj.CoreCompileInputs.cache
+C:\Users\furka\source\repos\Frc23\obj\Debug\Frc23.exe
+C:\Users\furka\source\repos\Frc23\obj\Debug\Frc23.pdb
+C:\Users\furka\source\repos\Frc23\obj\Debug\Frc23.Form2.resources
+C:\Users\furka\source\repos\Frc23\obj\Debug\Frc23.Form3.resources
+C:\Users\furka\source\repos\Frc23\obj\Debug\Frc23.Form4.resources
+C:\Users\furka\source\repos\Frc23\obj\Debug\Frc23.Form5.resources
+C:\Users\furka\source\repos\Frc23\obj\Debug\Frc23.Form6.resources
+C:\Users\furka\source\repos\Frc23\bin\Debug\Frc23.exe.CodeAnalysisLog.xml
+C:\Users\furka\source\repos\Frc23\bin\Debug\Frc23.exe.lastcodeanalysissucceeded
